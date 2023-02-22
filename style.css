@@ -1,0 +1,30 @@
+
+    body {
+        padding: 5% 15%;
+    }
+
+    /*
+      Left side design
+    */
+
+    #left {
+        background-color: #4132ef;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /*
+      Right side design
+    */
+
+
+
+
+
+
+    .attribution {
+        text-align: center;
+    }

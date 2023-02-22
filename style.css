@@ -1,6 +1,7 @@
 
     body {
         padding: 5% 15%;
+        justify-content: center;
     }
 
     /*
@@ -58,14 +59,23 @@
     */
 
     #right {
-        width: 35%;
+        width: 35%; 
+        padding-left: 2rem;
     }
 
     #red , #yellow , #green , #purple {
         display: flex;
         justify-content: space-between;
+        margin-top: 2rem;;
     }
 
+     i {
+        margin-right: 0.7rem;
+    }
+
+    #column {
+        margin-top: 2rem;
+    }
 
 
 

@@ -8,17 +8,57 @@
     */
 
     #left {
-        background-color: #4132ef;
+        background-color: #401c9c;
         color: #fff;
         text-align: center;
+        border-radius: 5%;
+        width: 35%;
+    }
+
+    #left > #result {
+        margin: auto;
+        width: 13rem;
+        height: 13rem;
+        border-radius: 50%;
+        background-color: #2c009c;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
+    }
+
+    #left > #result > h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    #left > #result > p {
+        color: #bcbcbc;
+        font-weight: 700;
+    }
+
+    #left > h2 {
+        margin: 7% auto 6% auto;
+        font-size: 1.6rem;
+    }
+
+    #left > p {
+        padding: 0 15% 0 15%;
+        margin: 5% 0 15% 0;
+        font-weight: 700;
+        color: #bcbcbc;
+    }
+
+    #left > h1 {
+        margin-top: 5%;
+        font-size: 2rem;
     }
 
     /*
       Right side design
     */
+
+    #right {
+        width: 35%;
+    }
 
 
 
